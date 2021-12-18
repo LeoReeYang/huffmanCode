@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/huffman.dir/huffmanCode.cpp.obj"
-  "CMakeFiles/huffman.dir/huffmanCode.cpp.obj.d"
+  "CMakeFiles/huffman.dir/test.cpp.obj"
+  "CMakeFiles/huffman.dir/test.cpp.obj.d"
   "huffman.exe"
   "huffman.exe.manifest"
   "huffman.pdb"

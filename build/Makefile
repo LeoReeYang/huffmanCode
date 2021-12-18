@@ -522,29 +522,29 @@ huffman/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/build
 .PHONY : huffman/fast
 
-huffmanCode.obj: huffmanCode.cpp.obj
-.PHONY : huffmanCode.obj
+test.obj: test.cpp.obj
+.PHONY : test.obj
 
 # target to build an object file
-huffmanCode.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/huffmanCode.cpp.obj
-.PHONY : huffmanCode.cpp.obj
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/test.cpp.obj
+.PHONY : test.cpp.obj
 
-huffmanCode.i: huffmanCode.cpp.i
-.PHONY : huffmanCode.i
+test.i: test.cpp.i
+.PHONY : test.i
 
 # target to preprocess a source file
-huffmanCode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/huffmanCode.cpp.i
-.PHONY : huffmanCode.cpp.i
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-huffmanCode.s: huffmanCode.cpp.s
-.PHONY : huffmanCode.s
+test.s: test.cpp.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-huffmanCode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/huffmanCode.cpp.s
-.PHONY : huffmanCode.cpp.s
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -586,9 +586,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... huffman
-	@echo ... huffmanCode.obj
-	@echo ... huffmanCode.i
-	@echo ... huffmanCode.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

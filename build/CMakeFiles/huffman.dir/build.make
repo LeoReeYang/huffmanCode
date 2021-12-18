@@ -68,28 +68,28 @@ include CMakeFiles/huffman.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/huffman.dir/flags.make
 
-CMakeFiles/huffman.dir/huffmanCode.cpp.obj: CMakeFiles/huffman.dir/flags.make
-CMakeFiles/huffman.dir/huffmanCode.cpp.obj: ../huffmanCode.cpp
-CMakeFiles/huffman.dir/huffmanCode.cpp.obj: CMakeFiles/huffman.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Codes\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/huffman.dir/huffmanCode.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/huffman.dir/huffmanCode.cpp.obj -MF CMakeFiles\huffman.dir\huffmanCode.cpp.obj.d -o CMakeFiles\huffman.dir\huffmanCode.cpp.obj -c C:\Codes\huffmanCode.cpp
+CMakeFiles/huffman.dir/test.cpp.obj: CMakeFiles/huffman.dir/flags.make
+CMakeFiles/huffman.dir/test.cpp.obj: ../test.cpp
+CMakeFiles/huffman.dir/test.cpp.obj: CMakeFiles/huffman.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Codes\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/huffman.dir/test.cpp.obj"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/huffman.dir/test.cpp.obj -MF CMakeFiles\huffman.dir\test.cpp.obj.d -o CMakeFiles\huffman.dir\test.cpp.obj -c C:\Codes\test.cpp
 
-CMakeFiles/huffman.dir/huffmanCode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huffman.dir/huffmanCode.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Codes\huffmanCode.cpp > CMakeFiles\huffman.dir\huffmanCode.cpp.i
+CMakeFiles/huffman.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huffman.dir/test.cpp.i"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Codes\test.cpp > CMakeFiles\huffman.dir\test.cpp.i
 
-CMakeFiles/huffman.dir/huffmanCode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffman.dir/huffmanCode.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Codes\huffmanCode.cpp -o CMakeFiles\huffman.dir\huffmanCode.cpp.s
+CMakeFiles/huffman.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffman.dir/test.cpp.s"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Codes\test.cpp -o CMakeFiles\huffman.dir\test.cpp.s
 
 # Object files for target huffman
 huffman_OBJECTS = \
-"CMakeFiles/huffman.dir/huffmanCode.cpp.obj"
+"CMakeFiles/huffman.dir/test.cpp.obj"
 
 # External object files for target huffman
 huffman_EXTERNAL_OBJECTS =
 
-huffman.exe: CMakeFiles/huffman.dir/huffmanCode.cpp.obj
+huffman.exe: CMakeFiles/huffman.dir/test.cpp.obj
 huffman.exe: CMakeFiles/huffman.dir/build.make
 huffman.exe: CMakeFiles/huffman.dir/linklibs.rsp
 huffman.exe: CMakeFiles/huffman.dir/objects1.rsp
