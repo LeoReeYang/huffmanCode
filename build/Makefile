@@ -510,41 +510,41 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named huffman
+# Target rules for targets named sssp
 
 # Build rule for target.
-huffman: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman
-.PHONY : huffman
+sssp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sssp
+.PHONY : sssp
 
 # fast build rule for target.
-huffman/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/build
-.PHONY : huffman/fast
+sssp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sssp.dir\build.make CMakeFiles/sssp.dir/build
+.PHONY : sssp/fast
 
-test.obj: test.cpp.obj
-.PHONY : test.obj
+SSSP.obj: SSSP.cpp.obj
+.PHONY : SSSP.obj
 
 # target to build an object file
-test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/test.cpp.obj
-.PHONY : test.cpp.obj
+SSSP.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sssp.dir\build.make CMakeFiles/sssp.dir/SSSP.cpp.obj
+.PHONY : SSSP.cpp.obj
 
-test.i: test.cpp.i
-.PHONY : test.i
+SSSP.i: SSSP.cpp.i
+.PHONY : SSSP.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/test.cpp.i
-.PHONY : test.cpp.i
+SSSP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sssp.dir\build.make CMakeFiles/sssp.dir/SSSP.cpp.i
+.PHONY : SSSP.cpp.i
 
-test.s: test.cpp.s
-.PHONY : test.s
+SSSP.s: SSSP.cpp.s
+.PHONY : SSSP.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\huffman.dir\build.make CMakeFiles/huffman.dir/test.cpp.s
-.PHONY : test.cpp.s
+SSSP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sssp.dir\build.make CMakeFiles/sssp.dir/SSSP.cpp.s
+.PHONY : SSSP.cpp.s
 
 # Help Target
 help:
@@ -585,10 +585,10 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... huffman
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... sssp
+	@echo ... SSSP.obj
+	@echo ... SSSP.i
+	@echo ... SSSP.s
 .PHONY : help
 
 

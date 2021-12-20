@@ -26,7 +26,7 @@ C:/Codes/build/CMakeFiles/ContinuousTest.dir
 C:/Codes/build/CMakeFiles/ContinuousCoverage.dir
 C:/Codes/build/CMakeFiles/ContinuousMemCheck.dir
 C:/Codes/build/CMakeFiles/ContinuousSubmit.dir
-C:/Codes/build/CMakeFiles/huffman.dir
+C:/Codes/build/CMakeFiles/sssp.dir
 C:/Codes/build/CMakeFiles/package.dir
 C:/Codes/build/CMakeFiles/package_source.dir
 C:/Codes/build/CMakeFiles/test.dir

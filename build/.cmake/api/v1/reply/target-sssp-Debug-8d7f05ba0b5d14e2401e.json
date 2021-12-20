@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "huffman.exe"
+			"path" : "sssp.exe"
 		},
 		{
-			"path" : "huffman.pdb"
+			"path" : "sssp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"id" : "huffman::@6890427a1f51a3e7e1df",
+	"id" : "sssp::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,8 +68,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "huffman",
-	"nameOnDisk" : "huffman.exe",
+	"name" : "sssp",
+	"nameOnDisk" : "sssp.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -90,7 +90,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test.cpp",
+			"path" : "SSSP.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

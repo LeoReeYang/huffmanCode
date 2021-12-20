@@ -290,9 +290,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "huffman::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-huffman-Debug-1464c253fe5d667e9d68.json",
-					"name" : "huffman",
+					"id" : "sssp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sssp-Debug-8d7f05ba0b5d14e2401e.json",
+					"name" : "sssp",
 					"projectIndex" : 0
 				}
 			]
